@@ -1,0 +1,96 @@
+
+body {
+    width: 300px;
+    height: 400px;
+}
+
+ol, ul {
+list-style: none; }
+
+table {
+border-collapse: collapse;
+border-spacing: 0; }
+
+.calculator {
+background-color: black;
+width: 400px;
+height: 555px;
+}
+.b_output_field {
+height: 30%;
+position: relative;
+}
+.result {
+color: orange;
+font-size: 40px;
+position: absolute;
+right: 1px;
+bottom: 0;
+width: 100%
+}
+.characters div {  
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+.characters {
+     
+height: 53px;
+text-align: right;
+}
+
+.characters_id div { 
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+.characters_id {
+    height: 53px;
+    text-align: right;
+}
+
+.characters:last-child  {
+    width: 299px;
+}
+.characters_id {
+    
+}
+
+
+.button {
+background-color: white;
+height: 50px;
+width: 50px;
+border-right: 1px solid orange;
+border-bottom: 1px solid orange;
+cursor: pointer;
+}
+.m_width {
+width: 158px;
+text-align: left;
+}
+.m_width_for_zero {
+width: 104px;
+}
+.symbol {
+background-color: orange;
+}
+.rate_x2 {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+    cursor: pointer;
+}
+
+.root {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+    cursor: pointer;
+}
