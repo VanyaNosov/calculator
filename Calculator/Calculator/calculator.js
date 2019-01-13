@@ -1,8 +1,3 @@
-// попробывать избавиться от лютых проверок
-// backspace кнопка (стирает последний символ) 
-// дополнительно - fortify landing добавить обнаружение операционной системы
-// дополнительно - уличшить способо добавлиния EvenListener для операций
-
 class Сalculator {
     constructor() {
         this.field = document.getElementById("field"); 
